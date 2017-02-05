@@ -1,0 +1,16 @@
+{
+  "name": "onesky",
+  "version": "1.0.0",
+  "description": "一片天科技官网",
+  "main": "",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start":"sudo fis3 server start",
+    "watch":"sudo fis3 release -w",
+    "deploy":"sudo fis3 release remote -c"
+  },
+  "author": "qinmudi",
+  "license": "ISC"
+}

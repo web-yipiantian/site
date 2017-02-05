@@ -1,0 +1,59 @@
+/*四个色块颜色替换*/
+
+.case_meau {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    max-width: 1920px;
+    min-width: 1024px;
+    margin: 10px auto auto auto;
+}
+.case_meau span.a_o {
+    height: 113px;
+    line-height: 113px;
+    background: #f3f3f3;
+    display: block;
+    float: left;
+    margin-right: .6%;
+    color: #fff;
+    width: 16.165%;
+}
+.case_meau a.a_t {
+    background: #22c3a7;
+}
+.case_meau a {
+    height: 113px;
+    line-height: 113px;
+    background: #f3f3f3;
+    display: block;
+    float: left;
+    margin-right: .6%;
+    color: #fff;
+    font-size: 17px;
+    text-align: center;
+    width: 16.165%;
+}
+.case_meau a.a_s {
+    background: #fea525;
+}
+.case_meau a.a_f {
+    background: #98db19;
+}
+.case_meau a.a_w {
+    background: #379ff1;
+}
+.case_meau span.a_l {
+    height: 113px;
+    line-height: 113px;
+    background: #f3f3f3;
+    display: block;
+    float: left;
+    color: #fff;
+    width: 16.165%;
+}
+.case_meau a.a_t:hover {
+    background: #1bb797;
+}
+.case_meau a.a_s:hover {
+    background: #fe951e;
+}

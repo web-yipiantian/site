@@ -1,0 +1,127 @@
+.chatPage {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    top: 60px;
+    padding-bottom: 0px;
+    margin-bottom: 60px;
+    border-bottom: 1.5px solid #c9c9c9;
+    background: #fff;
+}
+.chatPage-container {
+    position: relative;
+    margin: 0 auto;
+    width: 70%;
+    height: auto;
+}
+.chatPage-container .head {
+    width: 100%;
+    margin: auto 0;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+.chatPage-container .head .title_CN {
+    font-size: 32px;
+    color: #414141;
+    height: 50px;
+}
+.chatPage-container .head .title_EN {
+    font-size: 20px;
+    color: #8c8c8c;
+    height: 30px;
+}
+.chatPage-container .locationDesc {
+    width: 100%;
+    height: auto;
+    min-height: 500px;
+    position: relative;
+}
+.chatPage-container .locationDesc>img {
+    width: 100%;
+    height: auto;
+    min-height: 500px;
+    margin: 0 auto;
+}
+.chatPage-container .locationDesc .content {
+    position: absolute;
+    top: 0px;
+    width: 64%;
+    color: #fff;
+}
+.chatPage-container .locationDesc .content .title {
+    font-size: 24px;
+    line-height: 60px;
+    width: 60%;
+    margin: 0 10%;
+    margin-top: 20px;
+    border-bottom: 2px solid #aaa;
+}
+.chatPage-container .locationDesc .content .locationItem {
+    width: 60%;
+    margin: 0 10%;
+    margin-top: 20px;
+    font-size: 16px;
+    color: #fff;
+    line-height: 32px;
+    text-align: left;
+}
+.chatPage-container .locationDesc .content .companyBussiness {
+    width: 60%;
+    margin: 0 10%;
+    margin-top: 60px;
+    font-size: 16px;
+    color: #fff;
+    line-height: 32px;
+    text-align: left;
+}
+.chatPage-container .contactGuys {
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 80px 0;
+}
+.chatPage-container .contactGuys .item {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+.chatPage-container .contactGuys .item .content {
+    width: 60%;
+    min-width: 210px;
+    margin: 0 auto;
+    border-top: 1px solid #a3a3a3;
+}
+.chatPage-container .contactGuys .item .content .title {
+    font-size: 28px;
+    color: #414141;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.chatPage-container .contactGuys .item .content .name {
+    font-size: 18px;
+    color: #414141;
+}
+.chatPage-container .contactGuys .item .content .contact {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #a3a3a3;
+    line-height: 30px;
+    text-align: left;
+}
+.chatPage-container .contactGuys .item .content .contact>div {
+    height: 30px;
+    line-height: 25px;
+}
+.chatPage-container .contactGuys .item .content .contact>div .icon-ic_qq, .chatPage-container .contactGuys .item .content .contact>div .icon-ic_email, .chatPage-container .contactGuys .item .content .contact>div .icon-ic_phone, .chatPage-container .contactGuys .item .content .contact>div .icon-ic_wechat {
+    font-size: 18px;
+    color: #c9c9c9;
+}
+.chatPage-container .contactGuys .item .content .contact>div .text {
+    vertical-align: text-bottom;
+}

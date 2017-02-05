@@ -1,0 +1,6 @@
+{
+  "dependencies": [
+    "github:fis-components/jquery@2.2.3",
+    "github:fis-components/bootstrap@3.3.1"
+  ]
+}

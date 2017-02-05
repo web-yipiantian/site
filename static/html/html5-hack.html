@@ -1,0 +1,18 @@
+<!--
+ * Copyright (c) 2014-2015 Baidu, All rights reseved.
+ * @fileoverview HTML5 hack(for IE8 and lower versions)
+ * @author WangWenshu | wangwenshu@baidu.com
+ * @version 1.0 | 2014-05-04 | WangWenshu    // Initial version.
+ -->
+
+<!--[if lte IE 9]>
+  <script>
+    (function() {
+      var e = "abbr,article,aside,audio,canvas,datalist,details,dialog,eventsource,figure,footer,header,hgroup,mark,menu,meter,nav,output,progress,section,time,video".split(","),
+        i = e.length;
+      while (i--) {
+        document.createElement(e[i]);
+      }
+    })();
+  </script>
+<![endif]-->
